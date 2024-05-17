@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_aaronwang0509_harness_python_sample_1715906665848-pr-trigger-input-set
+  identifier: Build_aaronwang0509_harness_python_sample_1715906665848prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: CIPythonQuickstart
+  pipeline:
+    identifier: Build_aaronwang0509_harness_python_sample_1715906665848
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
